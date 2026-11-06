@@ -1,0 +1,15 @@
+{
+  "name": "nextjs-pages-async-module-tdz-repro",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "next build --webpack",
+    "repro": "node repro.cjs 1",
+    "sweep": "node sweep.cjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.42",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}
